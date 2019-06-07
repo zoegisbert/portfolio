@@ -1,0 +1,27 @@
+
+body{
+  background-color: black;
+  font-family: 'Comfortaa';
+}
+
+
+header{
+  background-color: white;
+  padding: 0 70px;
+  color: #4CB2B8;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    height: 10vh;
+}
+
+.links ul {
+  display: flex;
+}
+
+.links ul li {
+  margin-left: 20px;
+}
