@@ -1,7 +1,8 @@
 
 body{
   background-color: black;
-  font-family: 'Comfortaa';
+  font-family: 'Comfortaa', cursive;
+  letter-spacing: 3.22px;
 }
 
 
@@ -15,7 +16,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-    height: 10vh;
+  height: 10vh;
 }
 
 .links ul {
@@ -24,4 +25,71 @@ header{
 
 .links ul li {
   margin-left: 20px;
+}
+.main {
+  color: white;
+  background-image: linear-gradient(134deg, #6ABEC3 0%, #40ACB3 61%, #8FCED2 100%);
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.maintext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  font-size: 50px;
+}
+
+p{
+  font-size: 20px;
+  padding-top: 11px;
+}
+button {
+  background-color: white;
+  color: #296669;
+  border-radius: 10px;
+  border-style: none;
+  height: 48px;
+  width: 200px;
+  font-size: 18px;
+  letter-spacing: 3.22px;
+  font-family: 'Comfortaa', cursive;
+  background: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(100,134,136,0.80);
+  
+}
+.aboutme{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 328px;
+
+
+}
+h3{
+  font-size: 30px;
+  color: #296669;
+
+}
+.line{
+  height: 164px;
+  display:flex;
+  align-items: center;
+  border-right: 1px solid #296669;
+
+  width: 385px;
+  justify-content: center;
+}
+.aboutme p {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #49B0B6;
+  width: 600px;
 }
